@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/item_save" android:title="Сохранить"></item>
+    <item android:id="@+id/item_menu" android:title="Главное меню"></item>
+    <item android:id="@+id/item_back" android:title="Назад"></item>
+</menu>

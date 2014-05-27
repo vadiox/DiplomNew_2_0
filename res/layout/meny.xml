@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="244dp"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.35"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_words"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/words" />
+
+            <Button
+                android:id="@+id/btn_kadr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kadr25" />
+
+            <Button
+                android:id="@+id/btn_two_word_card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/two_word_kard" />
+
+            <Button
+                android:id="@+id/btn_asociat_card"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/asociat_card" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
