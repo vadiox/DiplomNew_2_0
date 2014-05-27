@@ -1,5 +1,6 @@
 DiplomNew_2_0
 =============
+//Потрібно підключити ActionBarSherlock (http://actionbarsherlock.com)
 
 Програмний комплекс для вивчення англійської мови
 
